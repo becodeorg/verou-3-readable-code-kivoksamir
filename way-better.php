@@ -31,7 +31,8 @@
         if ($type == "marguerita") {$price = 5;}
         if ($type == "golden"){$price = 100;}
         if ($type == "calzone"){$price = 10;}
-        if ($type == "hawaii") {$price = 1000;}
+        
+        return($price);
         
     }
 
@@ -40,7 +41,7 @@
         order("calzone", "koen");
         order("marguerita", "manuele");
         order("golden", "students");
-        order("hawaii", "koen");
+        
  
 
     
